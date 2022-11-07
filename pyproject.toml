@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nlp"
+name = "python-workspace"
 version = "0.1.0"
 description = ""
 authors = ["Diego Little <diegochelittle@gmail.com>"]
@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 python-dotenv = "^0.21.0"
+sqlalchemy = "^1.4.43"
+black = "^22.10.0"
 
 
 [build-system]
